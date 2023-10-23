@@ -15,7 +15,6 @@ header {
     justify-content: space-between;
     align-items: center;
     height: 80px;
-    background-color: hsl(207.1, 51.5%, 80.6%);
 }
 
 .header-section {
@@ -34,4 +33,46 @@ header {
     padding: 3px 20px;
     background-color: #0061ff;
     color: white;
+}
+
+/* stili main */
+.jumbotron {
+    height: 600px;
+    background-color: hsl(207.1, 51.5%, 80.6%); 
+    padding: 0 20%;
+}
+
+.jumbotron-title {
+    font-size: 40px;
+    padding: 50px 0 20px 0;
+}
+
+.jumbotron-content {
+    display: flex;
+    font-size: 14px; 
+}
+
+.jumbotron-paragraph p,button,i {
+    padding: 20px 0;
+
+}
+
+.jumbotron-paragraph button {
+    padding: 10px 20px;
+    background-color: #0061ff;
+    color: white;
+}
+
+.fa-arrow-down {
+    font-size: 60px;
+    padding: 50px 0;
+}
+
+.jumbotron-photo {
+    max-width: 60%;
+    padding-top: 20px;
+}
+
+.jumbotron-photo img {
+    width: 750px;
 }
