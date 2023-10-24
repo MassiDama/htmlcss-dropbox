@@ -9,6 +9,10 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+h2 {
+    font-size: 30px;
+}
+
 h3 {
     font-size: 17px;
 }
@@ -95,8 +99,7 @@ button {
     margin: 0 20%;
 }
 
-.title-business h1 {
-    font-size: 30px;
+.title-business h2 {
     padding: 60px 0 40px;
 }
 
@@ -201,3 +204,23 @@ button {
     border: 1px solid black;
 }
 
+/* stili sezione operazioni */
+.content-operazioni img {
+    width: 200px;
+    padding-top: 40px;
+}
+
+.content-operazioni p {
+    font-size: 12px;
+    padding-top: 30px;
+}
+
+.content-operazioni {
+    max-width: 30%;
+    margin-right: 20px;
+}
+
+.operazioni {
+    display: flex;
+    flex-wrap: wrap;
+}
