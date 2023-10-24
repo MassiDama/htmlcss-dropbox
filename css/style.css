@@ -9,6 +9,10 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+h3 {
+    font-size: 17px;
+}
+
 /* stili header */
 header {
     display: flex;
@@ -104,15 +108,15 @@ button {
 }
 
 .col-business {
-    border: 1px solid black;
+    border: 1px solid #e7e7e9;
     max-width: 30%;
-    margin-right: 10px;
+    margin-right: 5%;
 
 }
 
 /* stili all'interno della col-business */
 .business-type {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid hsl(0,0%,90%);
     text-align: center;
     font-size: 12px;
 }
@@ -132,6 +136,10 @@ button {
     padding-top: 50px;
 }
 
+.col-business-type i {
+    padding: 20px 0 0 0;
+}
+
 .euro-bold {
     font-weight: bold;
 }
@@ -143,3 +151,53 @@ button {
 .col-business-type button {
     margin: 30px 0 20px;
 }
+
+/* stili sezione enterprise */
+.enterprise-section {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #e7e7e9;
+    margin-top: 40px;
+    font-size: 12px;
+    padding: 20px;
+    
+}
+
+.enterprise {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0 0px 0;
+}
+
+.enterprise-section .euro-bold {
+    padding-bottom: 30px;
+}
+
+/* stili sezione partner */
+.partner-section img {
+    width: 70%;
+}
+
+.partner-section {
+    display: flex;
+    padding: 100px 0;
+}
+
+.partner-content {
+    max-width: 30%;
+    margin-left: 50px;
+    padding-top: 50px;
+    font-size: 13px;
+}
+
+.partner-content p {
+    padding: 20px 0;
+    font-size: 12px;
+}
+
+.white-button {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
