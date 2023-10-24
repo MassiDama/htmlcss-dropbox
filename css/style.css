@@ -224,3 +224,108 @@ button {
     display: flex;
     flex-wrap: wrap;
 }
+
+/* stili bottom title */
+.bottom-title {
+    max-width: 60%;
+    padding: 100px 0 50px;
+}
+
+.bottom-title a {
+    font-size: 12px;
+    color: #4c4cf2;
+}
+
+.bottom-title h2{
+    padding-bottom: 40px;
+}
+
+/* stili sezione designit */
+.container-advertising {
+    height: 300px;
+    display: flex;
+    width: 100%;
+
+}
+
+/* stili colonne advert */
+.col-advert {
+   max-width: 30%;
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.advert {
+    max-width: 50%;
+    background-color: #0061ff;
+    display: flex;
+    justify-content: center;
+}
+
+.advert img {
+    width: 50%;
+    
+    
+}
+
+/* stili colonna designit */
+.col-designit {
+    max-width: 50%;
+    background-color:hsl(0,0%,90%);
+    height: 300px;
+}
+
+.col-designit img {
+    width: 100px;
+}
+
+
+
+
+
+/* colori background advert*/
+.verde {
+    background-color: hsl(112.5, 38.9%, 71.8%);
+}
+
+.bordeux {
+    background-color: hsl(336.4, 84.8%, 20.6%);
+}
+
+.celeste {
+    background-color: hsl(197.2, 100%, 40.4%);
+}
+
+.arancione {
+    background-color: hsl(0, 100%, 55.5%);
+}
+
+.rosso {
+    background-color: hsl(351.3, 100%, 41.8%);
+}
+
+.grigio {
+    background-color: hsl(207.1, 51.5%, 80.6%);
+}
+
+.blue {
+    background-color: hsl(228.1, 81.7%, 27.8%);
+}
+
+.giallo {
+   background-color: hsl(48.7, 100%, 59.4%);
+}
+
+/* stili porta dropbox */
+.prova-gratuita {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+    min-height: 300px;
+    background-color: hsl(207.1, 51.5%, 80.6%);
+}
+
+.title-prova-gratuita {
+    max-width:70%;
+
+}
