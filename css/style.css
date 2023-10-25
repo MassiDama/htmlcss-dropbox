@@ -103,36 +103,20 @@ button {
     padding: 60px 0 40px;
 }
 
-.checkmark {
-    text-decoration: none;
-    color: #000;
+.title-business label {
     font-size: 14px;
-    border-radius: 50%;
 }
-
-.checkbox {
-    width: 1.3em;
-    height: 1.3em;
-    background-color: white;
-    border-radius: 50%;
-    vertical-align: middle;
-    border: 1px solid #ddd;
-}
-
 
 
 .business-plan {
     display: flex;
+    justify-content: space-between;
     padding-top: 30px;
-   
-
 }
 
 .col-business {
     border: 1px solid #e7e7e9;
     max-width: 30%;
-    margin-right: 5%;
-
 }
 
 /* stili all'interno della col-business */
