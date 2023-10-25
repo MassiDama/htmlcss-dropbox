@@ -286,6 +286,13 @@ button {
     width:50%;
 }
 
+.advert img:hover {
+    filter: grayscale(0);
+    filter: brightness(100);
+    
+
+}
+
 /* stili colonna designit */
 .col-designit {
     max-width: 50%;
