@@ -242,46 +242,48 @@ button {
 
 /* stili sezione designit */
 .container-advertising {
-    height: 300px;
-    display: flex;
+    height: 500px;
     width: 100%;
-    height: 400px;
+    display: flex;
+   
 }
 
 /* stili colonne advert */
 .col-advert {
-   max-width: 30%;
+   max-width: 25%;
+   max-height: 500px;
    display: flex;
    flex-wrap: wrap;
 }
 
 .advert {
-    max-width: 50%;
+    width: 50%;
+    height: 250px;
     background-color: #0061ff;
     display: flex;
     justify-content: center;
 }
 
 .advert img {
-    width: 50%;
-    
-    
+    width:50%;
 }
 
 /* stili colonna designit */
 .col-designit {
     max-width: 50%;
     background-color:hsl(0,0%,90%);
-    
+    padding: 50px;
 }
 
 .col-designit img {
-    width: 100px;
+    width: 150px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid black;
 }
 
-
-
-
+.col-designit p {
+    padding: 40px 0;
+}
 
 /* colori background advert*/
 .verde {
@@ -376,7 +378,7 @@ button {
   .nav-footer nav {
     display: flex;
     flex-direction: column;
-    padding-right: 50px;
+    padding-right: 100px;
   }
 
   nav h3 {
@@ -384,7 +386,7 @@ button {
   }
 
   nav span {
-    font-size: 13px;
+    font-size: 12px;
     padding-bottom: 10px;
   }
 
