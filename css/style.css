@@ -284,13 +284,8 @@ button {
 
 .advert img {
     width:50%;
-}
-
-.advert img:hover {
-    filter: grayscale(0);
-    filter: brightness(100);
-    
-
+    filter: invert(100%);
+   
 }
 
 /* stili colonna designit */
@@ -298,6 +293,7 @@ button {
     max-width: 50%;
     background-color:hsl(0,0%,90%);
     padding: 50px;
+    max-height: 500px;
 }
 
 .col-designit img {
