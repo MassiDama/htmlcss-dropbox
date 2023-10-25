@@ -58,14 +58,8 @@
                 <!-- titolo + nav -->
                 <section class="title-business">
                     <h2> Trova il piano business che fa per te</h2>
-                    <label class="fatturazione">
-                        <input type="checkbox" checked="checked">
-                        <span class="checkmark">Fatturazione mensile</span>
-                    </label>
-                    <label class="fatturazione">
-                        <input type="checkbox" checked="checked">
-                        <span class="checkmark">Fatturazione annuale</span>
-                    </label>
+                    <label><input name="origin" type="radio" value="google" checked /> Fatturazione mensile</label>
+                    <label><input name="origin" type="radio" value="facebook" /> Fatturazione annuale</label>
                 </section>
 
         
@@ -242,7 +236,7 @@
                     <img src="img/arizona_state_university.svg" alt="logo arizona university">
                 </div>
                 <div class="advert celeste">
-                    <img src="img/university_of_florida.svg" alt="logo florida university">
+                    <img id="logo-florida" src="img/university_of_florida.svg" alt="logo florida university">
                 </div>
                 <div class="advert arancione">
                     <img src="img/topps.svg" alt="logo topps">

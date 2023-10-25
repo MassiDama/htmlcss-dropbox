@@ -306,6 +306,12 @@ button {
     padding: 40px 0;
 }
 
+#logo-florida {
+    height: 50px;
+    margin-top: 100px;
+}
+
+
 /* colori background advert*/
 .verde {
     background-color: hsl(112.5, 38.9%, 71.8%);
