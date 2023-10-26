@@ -145,6 +145,10 @@ button {
     padding: 20px 0 0 0;
 }
 
+.col-business-type a {
+    color: #8383f6;
+}
+
 .euro-bold {
     font-weight: bold;
 }
@@ -153,10 +157,16 @@ button {
     list-style-type: none;
 }
 
+
 .col-business-type button {
     margin: 30px 0 20px;
 }
 
+.oppure-bord span {
+    border-bottom: 1px solid hsl(0,0%,90%);
+    padding-bottom: 30px;
+
+}
 /* stili sezione enterprise */
 .enterprise-section {
     display: flex;
