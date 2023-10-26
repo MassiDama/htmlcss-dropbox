@@ -165,8 +165,9 @@ button {
 .oppure-bord span {
     border-bottom: 1px solid hsl(0,0%,90%);
     padding-bottom: 30px;
-
 }
+
+
 /* stili sezione enterprise */
 .enterprise-section {
     display: flex;
@@ -174,8 +175,7 @@ button {
     border: 1px solid #e7e7e9;
     margin-top: 40px;
     font-size: 12px;
-    padding: 20px;
-    
+    padding: 20px;  
 }
 
 .enterprise {
@@ -288,6 +288,7 @@ button {
     background-color:hsl(0,0%,90%);
     padding: 50px;
     max-height: 500px;
+    overflow-y: scroll;
 }
 
 .col-designit img {
